@@ -159,11 +159,14 @@ if(count($frm) == 3){
     <link href="../assets/bootstrap-tour/css/bootstrap-tour.min.css" rel="stylesheet">
   </head>
 
+
   <body>
     <br>
-    <div class="container">
-      <div class="row">
 
+		<!-- main content : please edit your layout inside "container" tag -->
+    <div class="container">
+
+			<div class="row">
         <!-- satu -->
         <div class="col-md-4">
           <div class="panel panel-default" id="panel1">
@@ -218,6 +221,8 @@ if(count($frm) == 3){
 
       </div>
     </div>
+		<!-- end of main content -->
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
@@ -228,7 +233,6 @@ if(count($frm) == 3){
     <script>
       // Instance the tour
       var tour = new Tour({
-        // name:'sukses family',
         backdrop:true,
         steps: [{
           element: "#panel1",

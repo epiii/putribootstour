@@ -165,9 +165,9 @@ if(count($frm) == 3){
     <link href="../assets/bootstrap-tour/css/bootstrap-tour.min.css" rel="stylesheet">
     <!-- <link href="../assets/bootstrap3/css/bootstrap.css" rel="stylesheet" /> -->
 
-    <!-- <link href="../home/css/ct-paper.css" rel="stylesheet"/>
+    <link href="../home/css/ct-paper.css" rel="stylesheet"/>
     <link href="../home/css/demo.css" rel="stylesheet" />
-    <link href="../home/css/examples.css" rel="stylesheet" /> -->
+    <link href="../home/css/examples.css" rel="stylesheet" />
 
 <!-- out -->
 		<!-- <link href="bootstrap.min.css" rel="stylesheet">
@@ -300,14 +300,13 @@ if(count($frm) == 3){
 
 </body>
 
-<!-- <script src="../home/js/jquery-1.10.2.js" type="text/javascript"></script> -->
-<!-- <script src="../home/js/jquery-1.10.2.js" type="text/javascript"></script> -->
-<!-- <script src="../home/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script> -->
+<script src="../home/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="../home/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="../home/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
 
-<script src="../assets/bootstrap3/js/jquery.min.js"></script>
-<script src="../assets/bootstrap3/js/bootstrap.min.js"></script>
+<!-- <script src="../assets/bootstrap3/js/jquery.min.js"></script> -->
+<!-- <script src="../assets/bootstrap3/js/bootstrap.min.js"></script> -->
 <script src="../assets/bootstrap-tour/js/bootstrap-tour.min.js"></script>
-
 
 <!-- <script src="../assets/bootstrap3/js/bootstrap.min.js" type="text/javascript"></script> -->
 <!-- <script src="../assets/bootstrap-tour/js/bootstrap-tour.min.js"></script> -->
@@ -317,14 +316,14 @@ if(count($frm) == 3){
 <script src="js/bootstrap-tour.js"></script> -->
 
 <!--  Plugins -->
-	<!-- <script src="../home/js/ct-paper-checkbox.js"></script>
+	<script src="../home/js/ct-paper-checkbox.js"></script>
 	<script src="../home/js/ct-paper-radio.js"></script>
-	<script src="../home/js/ct-paper-bootstrapswitch.js"></script> -->
+	<script src="../home/js/ct-paper-bootstrapswitch.js"></script>
 
 <!--  for fileupload -->
-	<!-- <script src="../home/js/jasny-bootstrap.min.js"></script>
-	<script src="../home/js/ct-paper.js"></script> -->
-<script>
+	<script src="../home/js/jasny-bootstrap.min.js"></script>
+	<script src="../home/js/ct-paper.js"></script>
+	<script>
     var tour = new Tour({
 				backdrop:true,
         steps: [
